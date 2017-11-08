@@ -7,11 +7,26 @@
 
     <style >
     h2 {text-indent: 50px; }
-  
-    svg {background-color: #DADFFF;};
+    svg {background-color: #f7f6f4;}
+    
+    svg text.label {
+      fill: black;
+      font: 15px;  
+      font-weight: 400;
+      text-anchor: middle;
+      /*transform: rotate(90deg); /*this doesn't work*/*/
+    }
+    
+    .bar:hover {
+      opacity: 0.5;
     }
 
-
+    .Yes {
+      fill: #fcbe32;
+    }
+    .No {
+      fill: #8c8c8c;
+    }
 
     </style>
 
@@ -28,8 +43,8 @@
     <script type="text/javascript">
 
 
-      var margin = {top: 300, right: 50, bottom: 100, left: 50};
-      var width = 800 - margin.left - margin.right;
+      var margin = {top: 300, right: 150, bottom: 100, left: 50};
+      var width = 900 - margin.left - margin.right;
       var height = 900 - margin.top - margin.bottom;
 
 
@@ -65,9 +80,9 @@
             .call(d3.axisTop(x))
             .selectAll("text")
             .style("text-anchor", "start")
-            .attr("dx", ".8em")
-            .attr("dy", "1.3em")
-            .attr("transform", "rotate(-45)" );
+            .attr("dx", ".5em")
+            .attr("dy", "1em")
+            .attr("transform", "rotate(-55)" );
 
           svg.append("g")
               .attr("class", "y axis")
@@ -87,16 +102,50 @@
             .data(dataset)
               .enter()
               .append("rect")            
-              .attr("class", "bar")
               .attr("x", function(d) { return x(d.NAIC_CODE_TITLE); })
               .attr("y", 1)
-              .style("fill", "#febc3b")
               .attr("height", function(d) { return y(d.MED_PW); })
-              .attr("width", x.bandwidth());
+              .attr("width", x.bandwidth())
+              // .style('fill', function(d) {
+              //   var colors = ['#138d86', '#41b097' , '#86d6a7', '#c3dfa8', '#edd9a1',
+              //     '#ec967b', '#dc605d', '#8f3c4a', '#603d5d']
+              //   var col
+
+              //   for (i = 0; i < 10; i++) {
+              //     if (d.CAT == i + 1) {col = colors[i]}
+              //   }
+              //   return col
+              // })
+              // .on("click", function(){
+              //   d3.select(this)
+              //     .attr
+              // })
+              .attr('class', function(d) {
+                if (d.STEM == 'Yes') {
+                  return 'bar Yes'
+                }
+                else {
+                  return 'bar No'
+                }
+              });
 
 
-      };
+
+          g.selectAll(".text")     
+            .data(dataset)
+            .enter()
+            .append("text")
+            .attr("class","label")
+            .attr("x", (function(d) { return x(d.NAIC_CODE_TITLE) + x.bandwidth() / 2 ;}))
+            .attr("y", function(d) { return y(d.MED_PW); })
+            .attr("dy", ".75em")
+            .text(function(d) { return d.MED_PW;});
+            
+        };
     </script>
 
   </body>
 </html>
+
+<!-- NEXT STEP: Change Color based on group: Assign Groups in R, then do conditional coloring  -->
+<!-- MAYBE CONDITIONAL HOVER? hmmmm -->

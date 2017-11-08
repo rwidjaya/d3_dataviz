@@ -1,182 +1,290 @@
 [
   {
-    "NAIC_CODE_TITLE": "Administrative Management and General Management Consulting Services",
-    "MED_PW": 59738,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "All Other Information Services",
+    "MED_PW": 91562,
+    "TOTAL": 1,
+    "CAT": 1,
+    "CAT_TITLE": "Computation & Mathematics",
+    "STEM": "Yes"
   },
   {
-    "NAIC_CODE_TITLE": "All Other Telecommunications",
-    "MED_PW": 112632,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Automobile Manufacturing",
-    "MED_PW": 91104,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Cable and Other Subscription Programming",
-    "MED_PW": 103589,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Colleges, Universities, and Professional Schools",
-    "MED_PW": 48108,
-    "TOTAL": 8
-  },
-  {
-    "NAIC_CODE_TITLE": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
-    "MED_PW": 51230,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "All Other Professional, Scientific, and Technical Services",
+    "MED_PW": 117603,
+    "TOTAL": 1,
+    "CAT": 1,
+    "CAT_TITLE": "Computation & Mathematics",
+    "STEM": "Yes"
   },
   {
     "NAIC_CODE_TITLE": "Computer Systems Design Services",
-    "MED_PW": 69638,
-    "TOTAL": 13
-  },
-  {
-    "NAIC_CODE_TITLE": "Construction Machinery Manufacturing",
-    "MED_PW": 70647,
-    "TOTAL": 2
-  },
-  {
-    "NAIC_CODE_TITLE": "Credit Card Issuing",
-    "MED_PW": 72758,
-    "TOTAL": 2
+    "MED_PW": 93870,
+    "TOTAL": 7,
+    "CAT": 1,
+    "CAT_TITLE": "Computation & Mathematics",
+    "STEM": "Yes"
   },
   {
     "NAIC_CODE_TITLE": "Custom Computer Programming Services",
-    "MED_PW": 63690,
-    "TOTAL": 85
-  },
-  {
-    "NAIC_CODE_TITLE": "Data Processing, Hosting, and Related Services",
-    "MED_PW": 85134,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Direct Health and Medical Insurance Carriers",
-    "MED_PW": 60778,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Elementary and Secondary Schools",
-    "MED_PW": 45797,
-    "TOTAL": 1
+    "MED_PW": 66164,
+    "TOTAL": 82,
+    "CAT": 1,
+    "CAT_TITLE": "Computation & Mathematics",
+    "STEM": "Yes"
   },
   {
     "NAIC_CODE_TITLE": "Engineering Services",
-    "MED_PW": 60508,
-    "TOTAL": 6
-  },
-  {
-    "NAIC_CODE_TITLE": "General Medical and Surgical Hospitals",
-    "MED_PW": 39458,
-    "TOTAL": 2
-  },
-  {
-    "NAIC_CODE_TITLE": "Investment Advice",
-    "MED_PW": 92841,
-    "TOTAL": 2
-  },
-  {
-    "NAIC_CODE_TITLE": "Investment Banking and Securities Dealing",
-    "MED_PW": 99861,
-    "TOTAL": 2
-  },
-  {
-    "NAIC_CODE_TITLE": "Medical Laboratories",
-    "MED_PW": 41475,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Medicinal and Botanical Manufacturing",
-    "MED_PW": 61526,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Miscellaneous Intermediation",
-    "MED_PW": 107869,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "New Multifamily Housing Construction (except For-Sale Builders)",
-    "MED_PW": 58032,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Offices of Certified Public Accountants",
-    "MED_PW": 61703,
-    "TOTAL": 2
-  },
-  {
-    "NAIC_CODE_TITLE": "Offices of Dentists",
-    "MED_PW": 118934,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Offices of Other Holding Companies",
-    "MED_PW": 99934,
-    "TOTAL": 2
-  },
-  {
-    "NAIC_CODE_TITLE": "Offices of Physicians (except Mental Health Specialists)",
-    "MED_PW": 199472,
-    "TOTAL": 1
-  },
-  {
-    "NAIC_CODE_TITLE": "Offices of Physicians, Mental Health Specialists",
-    "MED_PW": 96762,
-    "TOTAL": 1
+    "MED_PW": 58157,
+    "TOTAL": 1,
+    "CAT": 1,
+    "CAT_TITLE": "Computation & Mathematics",
+    "STEM": "Yes"
   },
   {
     "NAIC_CODE_TITLE": "Other Computer Related Services",
-    "MED_PW": 63877,
-    "TOTAL": 3
+    "MED_PW": 65832,
+    "TOTAL": 3,
+    "CAT": 1,
+    "CAT_TITLE": "Computation & Mathematics",
+    "STEM": "Yes"
   },
   {
-    "NAIC_CODE_TITLE": "Other Financial Vehicles",
-    "MED_PW": 51626,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "Software Publishers",
+    "MED_PW": 120000,
+    "TOTAL": 1,
+    "CAT": 1,
+    "CAT_TITLE": "Computation & Mathematics",
+    "STEM": "Yes"
   },
   {
-    "NAIC_CODE_TITLE": "Petrochemical Manufacturing",
-    "MED_PW": 69430,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "Administrative Management and General Management Consulting Services",
+    "MED_PW": 55536,
+    "TOTAL": 3,
+    "CAT": 2,
+    "CAT_TITLE": "Consulting",
+    "STEM": "No"
   },
   {
-    "NAIC_CODE_TITLE": "Pharmaceutical Preparation Manufacturing",
-    "MED_PW": 92643,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "Marketing Consulting Services",
+    "MED_PW": 46301,
+    "TOTAL": 1,
+    "CAT": 2,
+    "CAT_TITLE": "Consulting",
+    "STEM": "No"
   },
   {
-    "NAIC_CODE_TITLE": "Portfolio Management",
-    "MED_PW": 88546,
-    "TOTAL": 3
+    "NAIC_CODE_TITLE": "Other Management Consulting Services",
+    "MED_PW": 121000,
+    "TOTAL": 1,
+    "CAT": 2,
+    "CAT_TITLE": "Consulting",
+    "STEM": "No"
   },
   {
-    "NAIC_CODE_TITLE": "Professional Organizations",
-    "MED_PW": 103168,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+    "MED_PW": 94515,
+    "TOTAL": 1,
+    "CAT": 3,
+    "CAT_TITLE": "Manufacturing",
+    "STEM": "No"
   },
   {
-    "NAIC_CODE_TITLE": "Sales Financing",
-    "MED_PW": 99861,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "Computer Storage Device Manufacturing",
+    "MED_PW": 119350,
+    "TOTAL": 1,
+    "CAT": 3,
+    "CAT_TITLE": "Manufacturing",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Other Electronic Component Manufacturing",
+    "MED_PW": 53518,
+    "TOTAL": 1,
+    "CAT": 3,
+    "CAT_TITLE": "Manufacturing",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Power, Distribution, and Specialty Transformer Manufacturing",
+    "MED_PW": 65208,
+    "TOTAL": 1,
+    "CAT": 3,
+    "CAT_TITLE": "Manufacturing",
+    "STEM": "No"
   },
   {
     "NAIC_CODE_TITLE": "Semiconductor and Related Device Manufacturing",
-    "MED_PW": 115638,
-    "TOTAL": 2
+    "MED_PW": 90064,
+    "TOTAL": 1,
+    "CAT": 3,
+    "CAT_TITLE": "Manufacturing",
+    "STEM": "No"
   },
   {
-    "NAIC_CODE_TITLE": "Sports and Recreation Instruction",
-    "MED_PW": 26478,
-    "TOTAL": 1
+    "NAIC_CODE_TITLE": "Telephone Apparatus Manufacturing",
+    "MED_PW": 73694,
+    "TOTAL": 1,
+    "CAT": 3,
+    "CAT_TITLE": "Manufacturing",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Architectural Services",
+    "MED_PW": 42172,
+    "TOTAL": 2,
+    "CAT": 4,
+    "CAT_TITLE": "Arts & Design",
+    "STEM": "Yes"
+  },
+  {
+    "NAIC_CODE_TITLE": "Other Specialized Design Services",
+    "MED_PW": 90355,
+    "TOTAL": 1,
+    "CAT": 4,
+    "CAT_TITLE": "Arts & Design",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Cable and Other Subscription Programming",
+    "MED_PW": 54350,
+    "TOTAL": 1,
+    "CAT": 5,
+    "CAT_TITLE": "Retail",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Office Supplies and Stationery Stores",
+    "MED_PW": 66934,
+    "TOTAL": 1,
+    "CAT": 5,
+    "CAT_TITLE": "Retail",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Colleges, Universities, and Professional Schools",
+    "MED_PW": 50790,
+    "TOTAL": 11,
+    "CAT": 6,
+    "CAT_TITLE": "Education",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Elementary and Secondary Schools",
+    "MED_PW": 37854,
+    "TOTAL": 2,
+    "CAT": 6,
+    "CAT_TITLE": "Education",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Credit Card Issuing",
+    "MED_PW": 87589,
+    "TOTAL": 1,
+    "CAT": 7,
+    "CAT_TITLE": "Finance & Accounting",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Financial Transactions Processing, Reserve, and Clearinghouse Activities",
+    "MED_PW": 69971,
+    "TOTAL": 1,
+    "CAT": 7,
+    "CAT_TITLE": "Finance & Accounting",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Investment Banking and Securities Dealing",
+    "MED_PW": 82285,
+    "TOTAL": 3,
+    "CAT": 7,
+    "CAT_TITLE": "Finance & Accounting",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Offices of Certified Public Accountants",
+    "MED_PW": 76118,
+    "TOTAL": 4,
+    "CAT": 7,
+    "CAT_TITLE": "Finance & Accounting",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Offices of Other Holding Companies",
+    "MED_PW": 77096,
+    "TOTAL": 2,
+    "CAT": 7,
+    "CAT_TITLE": "Finance & Accounting",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Secondary Market Financing",
+    "MED_PW": 77800,
+    "TOTAL": 1,
+    "CAT": 7,
+    "CAT_TITLE": "Finance & Accounting",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "General Medical and Surgical Hospitals",
+    "MED_PW": 187200,
+    "TOTAL": 1,
+    "CAT": 8,
+    "CAT_TITLE": "Health",
+    "STEM": "Yes"
+  },
+  {
+    "NAIC_CODE_TITLE": "Offices of Dentists",
+    "MED_PW": 108680,
+    "TOTAL": 1,
+    "CAT": 8,
+    "CAT_TITLE": "Health",
+    "STEM": "Yes"
+  },
+  {
+    "NAIC_CODE_TITLE": "Offices of Physical, Occupational and Speech Therapists, and Audiologists",
+    "MED_PW": 76606,
+    "TOTAL": 1,
+    "CAT": 8,
+    "CAT_TITLE": "Health",
+    "STEM": "Yes"
+  },
+  {
+    "NAIC_CODE_TITLE": "Offices of Physicians (except Mental Health Specialists)",
+    "MED_PW": 151744,
+    "TOTAL": 5,
+    "CAT": 8,
+    "CAT_TITLE": "Health",
+    "STEM": "Yes"
+  },
+  {
+    "NAIC_CODE_TITLE": "Offices of Physicians, Mental Health Specialists",
+    "MED_PW": 187200,
+    "TOTAL": 1,
+    "CAT": 8,
+    "CAT_TITLE": "Health",
+    "STEM": "Yes"
+  },
+  {
+    "NAIC_CODE_TITLE": "Other Heavy and Civil Engineering Construction",
+    "MED_PW": 61422,
+    "TOTAL": 1,
+    "CAT": 9,
+    "CAT_TITLE": "Others",
+    "STEM": "Yes"
   },
   {
     "NAIC_CODE_TITLE": "Support Activities for Oil and Gas Operations",
-    "MED_PW": 40851,
-    "TOTAL": 1
+    "MED_PW": 65015,
+    "TOTAL": 1,
+    "CAT": 9,
+    "CAT_TITLE": "Others",
+    "STEM": "No"
+  },
+  {
+    "NAIC_CODE_TITLE": "Office Administrative Services",
+    "MED_PW": 48318,
+    "TOTAL": 1,
+    "CAT": 9,
+    "CAT_TITLE": "Others",
+    "STEM": "No"
   }
 ]
