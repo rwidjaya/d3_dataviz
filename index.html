@@ -13,19 +13,25 @@
       fill: black;
       font: 15px;  
       font-weight: 400;
-      text-anchor: middle;
-      /*transform: rotate(90deg); /*this doesn't work*/*/
-    }
+      text-anchor: middle;}
+      /*transform: rotate(90deg);*/
     
     .bar:hover {
       opacity: 0.5;
     }
 
-    .Yes {
+    .STEM {
       fill: #fcbe32;
     }
-    .No {
+    .Non-STEM {
       fill: #8c8c8c;
+    }
+
+    .legend {
+      font-size: 12px;
+    }
+    rect {
+      stroke-width: 2;
     }
 
     </style>
@@ -122,26 +128,63 @@
               // })
               .attr('class', function(d) {
                 if (d.STEM == 'Yes') {
-                  return 'bar Yes'
+                  return 'bar STEM'
                 }
                 else {
-                  return 'bar No'
+                  return 'bar Non-STEM'
                 }
               });
 
 
-
-          g.selectAll(".text")     
+          g.selectAll("text")     
             .data(dataset)
             .enter()
             .append("text")
             .attr("class","label")
-            .attr("x", (function(d) { return x(d.NAIC_CODE_TITLE) + x.bandwidth() / 2 ;}))
-            .attr("y", function(d) { return y(d.MED_PW); })
+            .attr("transform", "rotate(-90)")
+            .attr("x", (function(d) { return -y(d.MED_PW) + 25; }))
+            .attr("y", function(d) { return x(d.NAIC_CODE_TITLE) + (x.bandwidth()/2) - 7 ;})
             .attr("dy", ".75em")
             .text(function(d) { return d.MED_PW;});
-            
+          
+          var legendRectSize = 18;
+          var legendSpacing = 4;
+
+          // legendVals = d3.set(dataset.map( function(d) { return d.STEM } ) ).values();
+
+          legendVals = ["STEM", "Non-STEM"]
+          console.log(legendVals);
+
+          var legendVals1 = d3.scaleOrdinal()
+            .domain(legendVals)
+            .range(["#fcbe32", "#8c8c8c"]);
+
+          var legend = svg.selectAll('.legend')
+            .data(legendVals1.domain())
+            .enter()
+            .append('g')
+            .attr('class', 'legend')
+            .attr('transform', function(d, i) {
+              var tall = legendRectSize + legendSpacing;
+              var offset =  tall * d.length / 2;
+              var horz = width - 5 * tall;
+              var vert = 200 + height - (i * tall);
+              return 'translate(' + horz + ',' + vert + ')'
+            });
+
+          legend.append('rect')
+            .attr('width', legendRectSize)
+            .attr('height', legendRectSize)
+            .style('fill', legendVals1)
+            .style('stroke', legendVals1);
+
+          legend.append('text')
+            .attr('x', legendRectSize + legendSpacing)
+            .attr('y', legendRectSize - legendSpacing)
+            .text(function(d) { return d.toUpperCase(); });
+
         };
+
     </script>
 
   </body>

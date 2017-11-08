@@ -18,18 +18,23 @@ naic <- select(naic, c("2017\r\nNAICS\r\nUS", "2017 NAICS US TITLE"))
 naic <- plyr::rename(naic, c("2017\r\nNAICS\r\nUS" = "NAIC_CODE", "2017 NAICS US TITLE" ="NAIC_CODE_TITLE"))
 naic <- unique(naic)
 
+set.seed(2)
 h16_spl <- h16_sub[sample(1:nrow(h16_sub), 200, replace=FALSE),]
 h16_spl$NAIC_CODE <- as.numeric(h16_spl$NAIC_CODE)
 
 h16_spl <- left_join(h16_spl, naic)
 h16_spl <- h16_spl[complete.cases(h16_spl[ , -1]),]
 
-h16_fnl <- select(h16_spl, c("CASE_NUMBER", "PREVAILING_WAGE", "NAIC_CODE_TITLE" ))
+h16_fnl <- select(h16_spl, c("CASE_NUMBER", "PREVAILING_WAGE", "NAIC_CODE_TITLE"))
 h16_fnl_2 <- h16_fnl %>%
   group_by(NAIC_CODE_TITLE) %>%
   summarise(MED_PW = median(PREVAILING_WAGE), TOTAL = n())
 h16_fnl_2$MED_PW <- round(h16_fnl_2$MED_PW)
 
-h16_json <- toJSON(h16_fnl_2, pretty = TRUE)
+h16_csv <- write.csv(h16_fnl_2, file = "h1b_final.csv")
+h16_fnl_3 <- read_csv('h1b_final.csv') 
+
+
+h16_json <- toJSON(h16_fnl_3, pretty = TRUE)
 write(h16_json, "negative.json")
 
