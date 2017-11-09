@@ -10,11 +10,11 @@
     svg {background-color: #f7f6f4;}
     
     svg text.label {
-      fill: black;
-      font: 15px;  
-      font-weight: 400;
-      text-anchor: middle;}
-      /*transform: rotate(90deg);*/
+      fill: white;
+      font-family: sans-serif;
+      font-size: 12px;  
+      text-anchor: middle;
+    }
     
     .bar:hover {
       opacity: 0.5;
@@ -34,6 +34,29 @@
       stroke-width: 2;
     }
 
+    .title {
+      fill: black;
+      font-family: courier;
+      font-size: 35px;  
+      text-anchor: right;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      fill: black;
+      font-family: sans-serif;
+      font-size: 20px;  
+      text-anchor: right;
+    }
+
+    .caption {
+      fill: black;
+      font-family: sans-serif;
+      font-size: 15px;  
+      text-anchor: right;
+      font-style: italic;
+    }
+
     </style>
 
   </head>
@@ -49,7 +72,7 @@
     <script type="text/javascript">
 
 
-      var margin = {top: 300, right: 150, bottom: 100, left: 50};
+      var margin = {top: 300, right: 125, bottom: 100, left: 75};
       var width = 900 - margin.left - margin.right;
       var height = 900 - margin.top - margin.bottom;
 
@@ -88,18 +111,21 @@
             .style("text-anchor", "start")
             .attr("dx", ".5em")
             .attr("dy", "1em")
-            .attr("transform", "rotate(-55)" );
+            .attr("transform", "rotate(-55)" )
 
           svg.append("g")
               .attr("class", "y axis")
               .attr("transform", "translate("+margin.left+","+margin.top+")")
               .call(d3.axisLeft(y))
             .append("text")            
-              .attr("transform", "rotate(90)")
-              .attr("y", 5)
+              .attr("transform", "rotate(-90)")
+              .attr("x", -height - 75)
+              .attr("y", -7 )
               .attr("dy", ".71em")
-              .style("text-anchor", "end")
-              .text("Frequency");
+              .attr("fill", "#000")
+              .attr("font-weight", "bold")
+              .style("text-anchor", "start")
+              .text("Median Income");
 
           g = svg.append("g")          
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -135,6 +161,24 @@
                 }
               });
 
+          svg.append("text")
+            .attr("class", "title")
+            .attr("x", width/3)
+            .attr("y", 1.5*height)
+            .text("H1-B Median Wage by Industry");
+
+          svg.append("text")
+            .attr("class", "subtitle")
+            .attr("x", width/3)
+            .attr("y", 1.5*height + 30)
+            .text("A sample of 200 Applicants, Industries by NAIC Classification.");
+
+          svg.append("text")
+            .attr("class", "caption")
+            .attr("x", width/3)
+            .attr("y", 1.5*height + 50)
+            .text("Source: USCIS");
+
 
           g.selectAll("text")     
             .data(dataset)
@@ -142,8 +186,8 @@
             .append("text")
             .attr("class","label")
             .attr("transform", "rotate(-90)")
-            .attr("x", (function(d) { return -y(d.MED_PW) + 25; }))
-            .attr("y", function(d) { return x(d.NAIC_CODE_TITLE) + (x.bandwidth()/2) - 7 ;})
+            .attr("x", (function(d) { return -y(d.MED_PW) + 30; }))
+            .attr("y", function(d) { return x(d.NAIC_CODE_TITLE) + (x.bandwidth()/4) ;})
             .attr("dy", ".75em")
             .text(function(d) { return d.MED_PW;});
           
@@ -164,11 +208,12 @@
             .enter()
             .append('g')
             .attr('class', 'legend')
+            .attr('font-family', "sans-serif")
             .attr('transform', function(d, i) {
               var tall = legendRectSize + legendSpacing;
               var offset =  tall * d.length / 2;
               var horz = width - 5 * tall;
-              var vert = 200 + height - (i * tall);
+              var vert = 100 + height - (i * tall);
               return 'translate(' + horz + ',' + vert + ')'
             });
 
