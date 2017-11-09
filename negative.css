@@ -1,0 +1,48 @@
+h2 {text-indent: 50px; }
+svg {background-color: #f7f6f4;}
+
+svg text.label {
+  fill: white;
+  font-family: sans-serif;
+  font-size: 12px;  
+  text-anchor: middle;
+}
+
+.bar:hover {
+  opacity: 0.5;
+}
+
+/*Conditional Color Class*/
+.STEM {fill: #fcbe32;}
+.Non-STEM {fill: #8c8c8c;}
+
+/*Legend Class*/
+.legend {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+rect {
+  stroke-width: 2;
+}
+
+/*Class for Titles, Subtitles, and Captions*/
+.title {
+  fill: black;
+  font-family: courier;
+  font-size: 25px;  
+  text-anchor: right;
+  font-weight: 600;
+}
+.subtitle {
+  fill: black;
+  font-family: courier;
+  font-size: 20px;  
+  text-anchor: right;
+}
+.caption {
+  fill: black;
+  font-family: sans-serif;
+  font-size: 15px;  
+  text-anchor: right;
+  font-style: italic;
+}

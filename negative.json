@@ -5,7 +5,7 @@
     "TOTAL": 1,
     "CAT": 1,
     "CAT_TITLE": "Computation & Mathematics",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "All Other Professional, Scientific, and Technical Services",
@@ -13,7 +13,7 @@
     "TOTAL": 1,
     "CAT": 1,
     "CAT_TITLE": "Computation & Mathematics",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Computer Systems Design Services",
@@ -21,7 +21,7 @@
     "TOTAL": 7,
     "CAT": 1,
     "CAT_TITLE": "Computation & Mathematics",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Custom Computer Programming Services",
@@ -29,7 +29,7 @@
     "TOTAL": 82,
     "CAT": 1,
     "CAT_TITLE": "Computation & Mathematics",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Engineering Services",
@@ -37,7 +37,7 @@
     "TOTAL": 1,
     "CAT": 1,
     "CAT_TITLE": "Computation & Mathematics",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Other Computer Related Services",
@@ -45,7 +45,7 @@
     "TOTAL": 3,
     "CAT": 1,
     "CAT_TITLE": "Computation & Mathematics",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Software Publishers",
@@ -53,7 +53,7 @@
     "TOTAL": 1,
     "CAT": 1,
     "CAT_TITLE": "Computation & Mathematics",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Administrative Management and General Management Consulting Services",
@@ -61,7 +61,7 @@
     "TOTAL": 3,
     "CAT": 2,
     "CAT_TITLE": "Consulting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Marketing Consulting Services",
@@ -69,7 +69,7 @@
     "TOTAL": 1,
     "CAT": 2,
     "CAT_TITLE": "Consulting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Other Management Consulting Services",
@@ -77,7 +77,7 @@
     "TOTAL": 1,
     "CAT": 2,
     "CAT_TITLE": "Consulting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
@@ -85,7 +85,7 @@
     "TOTAL": 1,
     "CAT": 3,
     "CAT_TITLE": "Manufacturing",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Computer Storage Device Manufacturing",
@@ -93,7 +93,7 @@
     "TOTAL": 1,
     "CAT": 3,
     "CAT_TITLE": "Manufacturing",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Other Electronic Component Manufacturing",
@@ -101,7 +101,7 @@
     "TOTAL": 1,
     "CAT": 3,
     "CAT_TITLE": "Manufacturing",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Power, Distribution, and Specialty Transformer Manufacturing",
@@ -109,7 +109,7 @@
     "TOTAL": 1,
     "CAT": 3,
     "CAT_TITLE": "Manufacturing",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Semiconductor and Related Device Manufacturing",
@@ -117,7 +117,7 @@
     "TOTAL": 1,
     "CAT": 3,
     "CAT_TITLE": "Manufacturing",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Telephone Apparatus Manufacturing",
@@ -125,7 +125,7 @@
     "TOTAL": 1,
     "CAT": 3,
     "CAT_TITLE": "Manufacturing",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Architectural Services",
@@ -133,7 +133,7 @@
     "TOTAL": 2,
     "CAT": 4,
     "CAT_TITLE": "Arts & Design",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Other Specialized Design Services",
@@ -141,7 +141,7 @@
     "TOTAL": 1,
     "CAT": 4,
     "CAT_TITLE": "Arts & Design",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Cable and Other Subscription Programming",
@@ -149,7 +149,7 @@
     "TOTAL": 1,
     "CAT": 5,
     "CAT_TITLE": "Retail",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Office Supplies and Stationery Stores",
@@ -157,7 +157,7 @@
     "TOTAL": 1,
     "CAT": 5,
     "CAT_TITLE": "Retail",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Colleges, Universities, and Professional Schools",
@@ -165,7 +165,7 @@
     "TOTAL": 11,
     "CAT": 6,
     "CAT_TITLE": "Education",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Elementary and Secondary Schools",
@@ -173,7 +173,7 @@
     "TOTAL": 2,
     "CAT": 6,
     "CAT_TITLE": "Education",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Credit Card Issuing",
@@ -181,7 +181,7 @@
     "TOTAL": 1,
     "CAT": 7,
     "CAT_TITLE": "Finance & Accounting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Financial Transactions Processing, Reserve, and Clearinghouse Activities",
@@ -189,7 +189,7 @@
     "TOTAL": 1,
     "CAT": 7,
     "CAT_TITLE": "Finance & Accounting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Investment Banking and Securities Dealing",
@@ -197,7 +197,7 @@
     "TOTAL": 3,
     "CAT": 7,
     "CAT_TITLE": "Finance & Accounting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Offices of Certified Public Accountants",
@@ -205,7 +205,7 @@
     "TOTAL": 4,
     "CAT": 7,
     "CAT_TITLE": "Finance & Accounting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Offices of Other Holding Companies",
@@ -213,7 +213,7 @@
     "TOTAL": 2,
     "CAT": 7,
     "CAT_TITLE": "Finance & Accounting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Secondary Market Financing",
@@ -221,7 +221,7 @@
     "TOTAL": 1,
     "CAT": 7,
     "CAT_TITLE": "Finance & Accounting",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "General Medical and Surgical Hospitals",
@@ -229,7 +229,7 @@
     "TOTAL": 1,
     "CAT": 8,
     "CAT_TITLE": "Health",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Offices of Dentists",
@@ -237,7 +237,7 @@
     "TOTAL": 1,
     "CAT": 8,
     "CAT_TITLE": "Health",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Offices of Physical, Occupational and Speech Therapists, and Audiologists",
@@ -245,7 +245,7 @@
     "TOTAL": 1,
     "CAT": 8,
     "CAT_TITLE": "Health",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Offices of Physicians (except Mental Health Specialists)",
@@ -253,7 +253,7 @@
     "TOTAL": 5,
     "CAT": 8,
     "CAT_TITLE": "Health",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Offices of Physicians, Mental Health Specialists",
@@ -261,7 +261,7 @@
     "TOTAL": 1,
     "CAT": 8,
     "CAT_TITLE": "Health",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Other Heavy and Civil Engineering Construction",
@@ -269,7 +269,7 @@
     "TOTAL": 1,
     "CAT": 9,
     "CAT_TITLE": "Others",
-    "STEM": "Yes"
+    "STEM": "STEM"
   },
   {
     "NAIC_CODE_TITLE": "Support Activities for Oil and Gas Operations",
@@ -277,7 +277,7 @@
     "TOTAL": 1,
     "CAT": 9,
     "CAT_TITLE": "Others",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   },
   {
     "NAIC_CODE_TITLE": "Office Administrative Services",
@@ -285,6 +285,6 @@
     "TOTAL": 1,
     "CAT": 9,
     "CAT_TITLE": "Others",
-    "STEM": "No"
+    "STEM": "Non-STEM"
   }
 ]

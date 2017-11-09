@@ -1,37 +1,37 @@
 NAIC_CODE_TITLE,MED_PW,TOTAL,CAT,CAT_TITLE,STEM
-All Other Information Services,91562,1,1,Computation & Mathematics,Yes
-"All Other Professional, Scientific, and Technical Services",117603,1,1,Computation & Mathematics,Yes
-Computer Systems Design Services,93870,7,1,Computation & Mathematics,Yes
-Custom Computer Programming Services,66164,82,1,Computation & Mathematics,Yes
-Engineering Services,58157,1,1,Computation & Mathematics,Yes
-Other Computer Related Services,65832,3,1,Computation & Mathematics,Yes
-Software Publishers,120000,1,1,Computation & Mathematics,Yes
-Administrative Management and General Management Consulting Services,55536,3,2,Consulting,No
-Marketing Consulting Services,46301,1,2,Consulting,No
-Other Management Consulting Services,121000,1,2,Consulting,No
-All Other Miscellaneous Electrical Equipment and Component Manufacturing,94515,1,3,Manufacturing,No
-Computer Storage Device Manufacturing,119350,1,3,Manufacturing,No
-Other Electronic Component Manufacturing,53518,1,3,Manufacturing,No
-"Power, Distribution, and Specialty Transformer Manufacturing",65208,1,3,Manufacturing,No
-Semiconductor and Related Device Manufacturing,90064,1,3,Manufacturing,No
-Telephone Apparatus Manufacturing,73694,1,3,Manufacturing,No
-Architectural Services,42172,2,4,Arts & Design,Yes
-Other Specialized Design Services,90355,1,4,Arts & Design,No
-Cable and Other Subscription Programming,54350,1,5,Retail,No
-Office Supplies and Stationery Stores,66934,1,5,Retail,No
-"Colleges, Universities, and Professional Schools",50790,11,6,Education,No
-Elementary and Secondary Schools,37854,2,6,Education,No
-Credit Card Issuing,87589,1,7,Finance & Accounting,No
-"Financial Transactions Processing, Reserve, and Clearinghouse Activities",69971,1,7,Finance & Accounting,No
-Investment Banking and Securities Dealing,82285,3,7,Finance & Accounting,No
-Offices of Certified Public Accountants,76118,4,7,Finance & Accounting,No
-Offices of Other Holding Companies,77096,2,7,Finance & Accounting,No
-Secondary Market Financing,77800,1,7,Finance & Accounting,No
-General Medical and Surgical Hospitals,187200,1,8,Health,Yes
-Offices of Dentists,108680,1,8,Health,Yes
-"Offices of Physical, Occupational and Speech Therapists, and Audiologists",76606,1,8,Health,Yes
-Offices of Physicians (except Mental Health Specialists),151744,5,8,Health,Yes
-"Offices of Physicians, Mental Health Specialists",187200,1,8,Health,Yes
-Other Heavy and Civil Engineering Construction,61422,1,9,Others,Yes
-Support Activities for Oil and Gas Operations,65015,1,9,Others,No
-Office Administrative Services,48318,1,9,Others,No
+All Other Information Services,91562,1,1,Computation & Mathematics,STEM
+"All Other Professional, Scientific, and Technical Services",117603,1,1,Computation & Mathematics,STEM
+Computer Systems Design Services,93870,7,1,Computation & Mathematics,STEM
+Custom Computer Programming Services,66164,82,1,Computation & Mathematics,STEM
+Engineering Services,58157,1,1,Computation & Mathematics,STEM
+Other Computer Related Services,65832,3,1,Computation & Mathematics,STEM
+Software Publishers,120000,1,1,Computation & Mathematics,STEM
+Administrative Management and General Management Consulting Services,55536,3,2,Consulting,Non-STEM
+Marketing Consulting Services,46301,1,2,Consulting,Non-STEM
+Other Management Consulting Services,121000,1,2,Consulting,Non-STEM
+All Other Miscellaneous Electrical Equipment and Component Manufacturing,94515,1,3,Manufacturing,Non-STEM
+Computer Storage Device Manufacturing,119350,1,3,Manufacturing,Non-STEM
+Other Electronic Component Manufacturing,53518,1,3,Manufacturing,Non-STEM
+"Power, Distribution, and Specialty Transformer Manufacturing",65208,1,3,Manufacturing,Non-STEM
+Semiconductor and Related Device Manufacturing,90064,1,3,Manufacturing,Non-STEM
+Telephone Apparatus Manufacturing,73694,1,3,Manufacturing,Non-STEM
+Architectural Services,42172,2,4,Arts & Design,STEM
+Other Specialized Design Services,90355,1,4,Arts & Design,Non-STEM
+Cable and Other Subscription Programming,54350,1,5,Retail,Non-STEM
+Office Supplies and Stationery Stores,66934,1,5,Retail,Non-STEM
+"Colleges, Universities, and Professional Schools",50790,11,6,Education,Non-STEM
+Elementary and Secondary Schools,37854,2,6,Education,Non-STEM
+Credit Card Issuing,87589,1,7,Finance & Accounting,Non-STEM
+"Financial Transactions Processing, Reserve, and Clearinghouse Activities",69971,1,7,Finance & Accounting,Non-STEM
+Investment Banking and Securities Dealing,82285,3,7,Finance & Accounting,Non-STEM
+Offices of Certified Public Accountants,76118,4,7,Finance & Accounting,Non-STEM
+Offices of Other Holding Companies,77096,2,7,Finance & Accounting,Non-STEM
+Secondary Market Financing,77800,1,7,Finance & Accounting,Non-STEM
+General Medical and Surgical Hospitals,187200,1,8,Health,STEM
+Offices of Dentists,108680,1,8,Health,STEM
+"Offices of Physical, Occupational and Speech Therapists, and Audiologists",76606,1,8,Health,STEM
+Offices of Physicians (except Mental Health Specialists),151744,5,8,Health,STEM
+"Offices of Physicians, Mental Health Specialists",187200,1,8,Health,STEM
+Other Heavy and Civil Engineering Construction,61422,1,9,Others,STEM
+Support Activities for Oil and Gas Operations,65015,1,9,Others,Non-STEM
+Office Administrative Services,48318,1,9,Others,Non-STEM
