@@ -133,7 +133,7 @@ function makeNegativeBar(){
     .range(["#fcbe32", "#8c8c8c"]);
 
   var legend = svg.selectAll('.legend')
-    .data(legendVals1.domain())
+    .data(legendVar1.domain())
     .enter()
     .append('g')
     .attr('class', 'legend')
@@ -148,8 +148,8 @@ function makeNegativeBar(){
   legend.append('rect')
     .attr('width', legendRectSize)
     .attr('height', legendRectSize)
-    .style('fill', legendVals1)
-    .style('stroke', legendVals1);
+    .style('fill', legendVar1)
+    .style('stroke', legendVar1);
 
   legend.append('text')
     .attr('x', legendRectSize + legendSpacing)
